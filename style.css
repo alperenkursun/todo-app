@@ -1,0 +1,29 @@
+.completed{
+    transition: all 5sn;
+    text-decoration: line-through;
+    opacity: 0.60;
+}
+
+label{
+    cursor:pointer;
+}
+
+label div:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+label div::-webkit-scrollbar{
+    display: none;
+}
+
+.btn-group.w-50.completed{
+    transition: all 5sn;
+    text-decoration: line-through;
+    opacity: 0.60;
+}
+body{
+    background-color: red;
+}
+
+
+
